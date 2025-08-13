@@ -1,6 +1,5 @@
 # Portfolio — Secure-by-Default Engineering
 
-About Me
 Hi, I’m Darius McCullough — I’ve completed advanced coursework in data science, AI applications, and software engineering through Cornell University, focusing on building machine learning models, designing data pipelines, and developing interactive dashboards for real-world projects in finance, education, and technology.
 My work includes analyzing complex datasets, automating workflows, and delivering actionable insights using Python, SQL, and cloud-based tools. This portfolio showcases my passion for turning data into impact — whether that’s optimizing operations, uncovering trends, or designing intelligent systems.
 
