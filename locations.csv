@@ -1,0 +1,4 @@
+place_id,name,city,transactions_30d,rating,reviews,lat,lng
+p1,Store A,NYC,1200,4.6,210,40.7,-74.0
+p2,Store B,Newark,400,4.1,45,40.74,-74.17
+p3,Store C,Brooklyn,800,4.8,120,40.68,-73.95
