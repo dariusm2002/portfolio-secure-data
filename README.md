@@ -78,8 +78,3 @@ A minimal Next.js example fetching a secret at runtime using an Infisical-style 
 - **Full-Stack Development**: Next.js runtime integrations
 
 ---
-
-## How to Run Locally
-Clone the repo:
-```bash
-git clone https://github.com/<your-username>/portfolio-secure-data.git
