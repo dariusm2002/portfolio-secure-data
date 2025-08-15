@@ -1,11 +1,15 @@
 # Portfolio — Secure-by-Default Engineering
 
-Hi, I’m Darius McCullough — I’ve completed advanced coursework in data science, AI applications, and software engineering through Cornell University, focusing on building machine learning models, designing data pipelines, and developing interactive dashboards for real-world projects in finance, education, and technology.
-My work includes analyzing complex datasets, automating workflows, and delivering actionable insights using Python, SQL, and cloud-based tools. This portfolio showcases my passion for turning data into impact, whether that’s optimizing operations, uncovering trends, or designing intelligent systems.
+This portfolio demonstrates my ability to design, implement, and document production-ready, security-focused systems that scale. Drawing on advanced training in data science, AI applications, and software engineering from Cornell University, I have independently delivered solutions that combine robust encryption models, scalable cloud architectures, automated DevOps workflows, and machine learning pipelines. Each project reflects both technical depth and system-level thinking — the same qualities I bring to startup environments that demand rapid iteration, lean deployment, and long-term maintainability.
 
-This portfolio showcases advanced, security-focused software engineering projects.  
-It spans end-to-end encryption, identity-based cloud automation, secure code scanning,  
-data ranking pipelines, fraud detection, and runtime secret management in applications.
+I’m Darius McCullough, a software engineer and data scientist with a focus on security-first architecture, scalable data systems, and applied machine learning. My background includes advanced coursework at Cornell University in data science, AI applications, and software engineering, complemented by independent projects spanning finance, education, and cloud-native infrastructure.
+
+I specialize in:
+Designing secure, high-availability systems with encryption, least-privilege access control, and automated secret management.
+Building end-to-end data workflows — from ingestion and transformation to analytics and machine learning.
+Developing full-stack prototypes that integrate cloud APIs, CI/CD pipelines, and runtime secrets securely.
+
+This portfolio showcases systems I have designed, implemented, and documented — with an emphasis on code quality, rationale documentation, and security-by-default principles.
 
 ---
 
@@ -70,6 +74,15 @@ A minimal Next.js example fetching a secret at runtime using an Infisical-style 
 - Swappable provider pattern
 - Compatible with OIDC-based secret providers  
 [View code](./nextjs-runtime-secret)
+
+---
+
+7. interactive-learning-dashboard — Clicker-Based Engagement Analytics
+An R Shiny dashboard for analyzing student engagement and performance data from in-class clickers.
+Aggregates demographic, attendance, and quiz data
+Generates interactive visualizations for instructors and personalized feedback for students
+Supports filtering by date, quiz, and performance tier
+Designed for scalability across multiple courses and departments
 
 ---
 
