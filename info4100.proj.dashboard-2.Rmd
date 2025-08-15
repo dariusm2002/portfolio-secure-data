@@ -146,8 +146,6 @@ Each dashboard should contain at least 4 data visualizations. You may include an
 
 This is where you generate the dashboard layout. You are given a very basic wire frame example for the dashboard below. For more information on how R Shiny Dashboards work, look at <https://rstudio.github.io/shinydashboard/get_started.html> and <https://rstudio.github.io/shinydashboard/structure.html>. You can add different types of content into a `fuidRow()`. In the starter code, there are 2 rows of content: the first has two little info boxes; the second has two larger viz boxes. You can add more rows and change what is in them as you wish. Follow the naming convention, e.g. `inst.info1` is the first info box for instructors.
 
-Your team can split up the tasks. Some work on creating the UI (this part), while others work on pre-processing the data and creating the statistics and visualizations that will populate the UI (next part).
-
 **Question 3:** Create the layout for the dashboard tabs. You can have as many "tabs" as you like. Each tab is the content displayed when the user clicks on one of the menu items (so it is the page content). Here you are just specifying the wire frame i.e. **what goes where on the pages**, not what goes into it.
 
 ```{r}
@@ -638,52 +636,4 @@ ui = dashboardPage(dhead, dside, dbody)
 shinyApp(ui, server)
 ```
 
-**Question 5:** Add screenshots of your group's dahsboards below using this syntax or simply add them to the Word document after knitting:
 
-![Dashboard Screenshot](example_dash.png)
-
-**Question 6:** Evaluate your group dashboard from the perspective of the instructor (teacher dashboard) and from the perspective of the student (student dashboard). What do you like about it, what would you change or add to it if you had more time?
-
-*Reflection for the student dashboard*
-
--   What do you like about it?
-    -   We like that the student dashboard provides immediate feedback on performance, sentiment, and engagement. It is visually simple, easy to navigate, and highlights key metrics like quiz scores, clicker performances, and attendance per month. It makes it easier for students to self-monitor their progress without feeling overwhelmed.
--   What would you change or add to it if you had more time?
-    -   We would add personalized goal-setting features where students could set learning goals and track their progress over time. I would also incorporate a dynamic, interactive version of the student dashboard for it to update with the select student’s information, but we wanted to prioritize the visualization given the complexity.
--   What was the biggest challenge you faced? How did you address it?
-    -   The biggest challenge was understanding how to create relevant variables from the dataset to convey this information. To address this, we took some time understanding each variable to then decide on what/how to use them, along with the help of HiTA to explain this more in depth.
-
-*Reflection for the teacher dashboard*
-
--   What do you like about it?
-    -   We like that the teacher dashboard aggregates student data efficiently, while also providing unique insights (based on program, session, quiz, etc.) We also feel like the visualizations are very clear, simple so it would be easy for an instructor to go through the dashboard and gain information.
--   What would you change or add to it if you had more time?
-    -   If we had more time, we would categorize the dashboard based on teaching year. Currently, we combined all 3 years, but if we a dropdown menu where we can view based on year, we feel like it can provide unique insights based on how the instructor structured the course each year.
--   What was the biggest challenges you faced? How did you address it?
-    -   The biggest challenge was deciding how much detail to show without making the dashboard too complex or overwhelming for teachers. Through careful planning and providing constructive feedback with the group members we were able to come up with a visually effective dashboard.
-
-# Self-reflection
-
-**Briefly summarize your experience on this homework. What was easy, what was hard, what did you learn?**
-
--   Generating visualizations was fairly an easy task since it was repetitive. However, understanding which variables/dataset to use was confusing at times. We were able to learn how data can be utilized to generate meaningful dashboards.
--   What I found more challenging was designing a dashboard that would be truly useful for both instructors and students. It took time to consider what metrics mattered most, how to structure the layout, and how to balance visual clarity with depth of insight. Debugging reactive expressions in Shiny also presented some complexity, especially when trying to make filters and plots respond to user input correctly. Through this project, I learned how to integrate multiple datasets into a coherent dashboard, how to use shinydashboard to build a user interface, and how to critically evaluate what makes a visualization useful in an educational context. I also deepened my understanding of student engagement metrics and the kinds of feedback that can support learning at scale.
-
-# Estimate time spent
-
-**We want to give students an estimate of how much time this homework will take. Please indicate how many hours you spent to complete this homework here.**
-
--   I spent 18 hours.
-
-# Generative AI usage
-
-**As stated in the course syllabus, using generative AI is allowed to help you as you complete this homework. We are interested in how it is being used and whether it is helpful for you.**
-
--   How much did you use generative AI (e.g., not at all, some, most, or all the questions) and which one did you use?
-    -   We only used it for pre-processing and creating visualizations.
--   If you used generative AI, how did you use it and was it helpful?
-    -   We used HiTA and Chatgpt to solve various syntax issues with R and generating visualizations.
-
-# Submit Homework
-
-This is the end of the homework. Please **Knit to Word** (if you run into an issue, you can knit to PDF). The resulting file has to show both the R code and R output. Upload it on Canvas before the due date.
